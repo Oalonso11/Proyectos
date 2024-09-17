@@ -3,6 +3,7 @@
 #include<math.h>
 int main(){
   float radio, area, volumen;
+  printf("Programa que encuentra el área y el volumen de una esfera en cm."
   printf("Inserte el radio en cm: ");
   scanf("%f", &radio);
   area = 4*M_PI*pow(radio,2);
