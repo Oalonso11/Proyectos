@@ -3,6 +3,7 @@ de una esfera, dado el valor del radio en cm.*/
 #include <stdio.h>
 #include <math.h>
 int main(){
-    
-    return 0;
+ float radio, area, volum;
+ 
+ return 0;
 }
