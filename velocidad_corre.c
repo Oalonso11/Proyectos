@@ -9,7 +9,7 @@ int main(){
  float velocidad, tiempototal;
  printf("Ingrese el tiempo total del corredor min,seg: ");
  scanf ("%d,%d",&min, &seg);
- tiempototal = (min+60) + seg;...
+ tiempototal = (min*60) + seg;...
  velocidad = distancia/ (float) tiempototal;
  printf("La velocidad del corredor es de: %.6f m/s", velocidad);
  return 0;
