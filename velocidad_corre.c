@@ -6,10 +6,9 @@ int main(){
     const int distancia = 1500;
     int min, seg;
     float velocidad;
-    printf("Ingrese el tiempo total de minutos: ");
+    printf("Ingrese el tiempo total del corredor (min,seg) : ");
     scanf("%d",&min);
     min *= 60;
-    printf("Ingrese el timepo total de segundos: ");
     scanf("%d",&seg);
     seg += min;
     velocidad = distancia/(float)seg;
